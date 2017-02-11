@@ -1,0 +1,33 @@
+/*----------import module----------*/
+@import "../../../libs/scss/rem";
+
+.download {
+    margin: 0 0 rem(38);
+    padding: 0 rem(35);
+    height: rem(188);
+    .video {
+        float: left;
+        background: #000;
+        height: 100%;
+        width: rem(306);
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .download-btn {
+        float: right;
+        width: rem(251);
+        a {
+            display: block;
+            height: rem(89);
+            img {
+                height: 100%;
+                width: 100%;
+            }
+            &:last-child {
+                margin-top: rem(188-89*2);
+            }
+        }
+    }
+}

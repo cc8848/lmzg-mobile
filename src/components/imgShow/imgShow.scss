@@ -1,0 +1,30 @@
+/*----------import module----------*/
+@import "../../../libs/scss/rem";
+
+.img-tab {
+    padding: rem(40) 0 rem(140);
+    .swiper-wrapper {
+        height: 100%;
+        width: 100%;
+    }
+    .swiper-slide {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        img {
+            width: rem(576);
+        }
+    }
+    .swiper-pagination-bullets {
+        bottom: rem(68);
+        span.swiper-pagination-bullet {
+            background: #3a3a3a;
+            height: rem(20);
+            width: rem(20);
+            opacity: 1;
+        }
+        span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: #a2874a;
+        }
+    }
+}

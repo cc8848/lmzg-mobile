@@ -1,0 +1,56 @@
+/*----------import module----------*/
+@import "../../../../libs/scss/rem";
+
+.item-li {
+    margin-bottom: rem(20);
+    padding-bottom: rem(20);
+    border-bottom: rem(1) solid #3a3a3a;
+    span.avatar {
+        float: left;
+        display: block;
+        height: rem(94);
+        width: rem(94);
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .item-con-wrap {
+        float: right;
+        width: rem(460);
+        h3 {
+            float: left;
+            color: #ff9a16;
+            font-size: rem(18);
+        }
+        .item-con-star {
+            float: left;
+            margin: rem(5) 0 0 rem(10);
+            height: rem(12);
+            a.star-yellow {
+                float: left;
+                background: url("../../../public/images/land/land-start-yellow.png") no-repeat center;
+                background-size: 100% 100%;
+                height: rem(12);
+                width: rem(13);
+            }
+        }
+        span.comment-num {
+            float: right;
+            padding-right: rem(26);
+            background: url("../../../public/images/land/land-good-btn.png") no-repeat right;
+            background-size: auto 100%;
+            display: block;
+            height: 100%;
+            color: #f7d907;
+            font-size: rem(18);
+        }
+    }
+    p {
+        margin-top: rem(10);
+        color: #7d776b;
+        font-size: rem(18);
+        line-height: rem(28);
+    }
+}
+

@@ -1,0 +1,18 @@
+/*----------import module----------*/
+@import "../../../libs/scss/rem";
+
+.loadmore {
+    margin-bottom: rem(20);
+    height: rem(68);
+    text-align: center;
+    a {
+        border: 1px solid #787267;
+        display: inline-block;
+        height: rem(66);
+        width: rem(310);
+        color: #787267;
+        font-size: rem(22);
+        line-height: rem(66);
+        text-align: center;
+    }
+}

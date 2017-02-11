@@ -1,0 +1,20 @@
+.undown-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}
+
+.undown-text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../../public/images/land/msg_weixin.png") no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    width: 100%;
+}

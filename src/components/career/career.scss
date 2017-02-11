@@ -1,0 +1,72 @@
+/*----------import module----------*/
+@import "../../../libs/scss/rem";
+
+.role-tab {
+    margin: rem(28) 0 rem(40) 0;
+    padding-top: rem(140);
+    height: 100%;
+    width: 100%;
+    .swiper-slide {
+        height: 100%;
+        width: 100%;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+        .role-con {
+            position: absolute;
+            left: rem(290);
+            top: rem(260);
+            width: rem(336);
+            h3 {
+                margin-bottom: rem(35);
+                font-size: rem(30);
+            }
+            p {
+                font-size: rem(18);
+                line-height: rem(28);
+            }
+        }
+    }
+    .swiper-pagination-bullets {
+        bottom: inherit;
+        top: 0;
+        width: 100%;
+        span.swiper-pagination-bullet {
+            background: url("../../public/images/land/land-btn.png") no-repeat center;
+            background-size: 100% 100%;
+            border-radius: 0;
+            height: rem(150);
+            width: rem(136);
+            opacity: 1;
+            &:nth-child(2) {
+                background: url("../../public/images/land/land-btn1.png") no-repeat center;
+                background-size: 100% 100%;
+            }
+            &:nth-child(3) {
+                background: url("../../public/images/land/land-btn2.png") no-repeat center;
+                background-size: 100% 100%;
+            }
+            &:nth-child(4) {
+                background: url("../../public/images/land/land-btn3.png") no-repeat center;
+                background-size: 100% 100%;
+            }
+        }
+        span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: url("../../public/images/land/land-btn-hover.png") no-repeat center;
+            background-size: 100% 100%;
+            &:nth-child(2) {
+                background: url("../../public/images/land/land-btn1-hover.png") no-repeat center;
+                background-size: 100% 100%;
+            }
+            &:nth-child(3) {
+                background: url("../../public/images/land/land-btn2-hover.png") no-repeat center;
+                background-size: 100% 100%;
+            }
+            &:nth-child(4) {
+                background: url("../../public/images/land/land-btn3-hover.png") no-repeat center;
+                background-size: 100% 100%;
+            }
+        }
+    }
+}

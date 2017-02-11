@@ -1,0 +1,33 @@
+/*----------import module----------*/
+@import "../../libs/scss/normalize";
+@import "../../libs/scss/public";
+
+/*----------my style----------*/
+body {
+    background: #1b1a18;
+    color: #fff;
+    .land-main {
+        background: url("../public/images/land/carrer0.jpg") no-repeat top;
+        background-size: 100% auto;
+        &.career-two {
+            background: url("../public/images/land/carrer1.jpg") no-repeat top;
+            background-size: 100% auto;
+        }
+        &.career-three {
+            background: url("../public/images/land/carrer2.jpg") no-repeat top;
+            background-size: 100% auto;
+        }
+    }
+}
+
+.banner-new{
+    img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+/*----------import module----------*/
+@import "../../../libs/scss/rem";
+
+.land-title {
+    height: rem(30);
+    text-align: center;
+    img {
+        height: 100%;
+    }
+}
