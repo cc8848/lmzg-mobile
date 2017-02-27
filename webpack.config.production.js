@@ -23,7 +23,7 @@ module.exports = {
     },
     output: {
         path: DIST_PATH,
-        publicPath: '../',
+        publicPath: 'https://lmzg.8864.com/template/ldy/',
         filename: 'js/[name]-[hash:8].js'
     },
     module: {
