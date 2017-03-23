@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
-import Footer from './components/footer/footer';
+import Footer from './components/footer-new/footer';
 import HeaderNew from './components/headerNew/header';
 import PcTips from './components/pcTips/pcTips';
 import WxTips from './components/wxTips/WxTips';
